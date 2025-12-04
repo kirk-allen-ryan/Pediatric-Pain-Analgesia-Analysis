@@ -1,4 +1,6 @@
+# Python packages required to run the Jupyter Notebook
 pandas
 numpy
+scikit-learn
 matplotlib
 seaborn
