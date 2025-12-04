@@ -62,7 +62,7 @@ This analysis contributed to findings published in the following peer-reviewed j
 Example analytical pipeline is available in the accompanying notebooks.
 
 * **[View Analysis Notebook (MMA_OBA_VAPS_Timeline.ipynb)](MMA_OBA_VAPS_Timeline.ipynb)**
-* **[[Launch Interactive Environment via Binder]([[https://myfinder.org/v2/gh/kirk-allen-ryan/Pediatric-Pain-Analgesia-analysis/HEAD_]** *(To run live code)*
+* **[[Launch Interactive Environment via Binder]([[https://mybinder.org/v2/gh/kirk-allen-ryan/Pediatric-Pain-Analgesia-analysis/HEAD_]** *(To run live code)*
 
 
 
