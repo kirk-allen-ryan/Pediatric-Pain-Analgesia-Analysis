@@ -9,6 +9,10 @@ This repository contains the data engineering pipeline and reproducible analysis
 
 As the primary Data Engineer and Analyst, this project showcases expertise in rigorous EMR data acquisition, multi-step standardization, clinically-informed imputation, and statistical preparation for published research.
 
+<img width="688" height="516" alt="image" src="https://github.com/user-attachments/assets/1816565a-6e94-4647-b9fe-c4a63c927505" />
+
+
+
 ---
 
 ## 🛠️ Methodology: Data Engineering & Analysis Pipeline
@@ -55,9 +59,9 @@ This analysis contributed to findings published in the following peer-reviewed j
 * [Primary Publication Link (PubMed/Semantic Scholar)](YOUR_PUBLICATION_URL_HERE)
 
 ### Reproducibility
-The full data cleaning and analytical pipeline is available in the accompanying notebook.
+Example analytical pipeline is available in the accompanying notebooks.
 
-* **[View Cleaned Analysis Notebook (analysis_psf.ipynb)](ANALYSIS_NOTEBOOK_FILE_NAME.ipynb)**
+* **[View Analysis Notebook (MMA_OBA_VAPS_Timeline.ipynb)](MMA_OBA_VAPS_Timeline.ipynb)**
 * **[Launch Interactive Environment via Binder](YOUR_BINDER_LINK_HERE)** *(Recommended for recruiters to run the code live)*
 
 
