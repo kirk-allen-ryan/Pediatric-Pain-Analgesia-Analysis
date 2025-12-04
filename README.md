@@ -61,8 +61,12 @@ This analysis contributed to findings published in the following peer-reviewed j
 ### Reproducibility
 Example analytical pipeline is available in the accompanying notebooks.
 
+
+
 * **[View Analysis Notebook (MMA_OBA_VAPS_Timeline.ipynb)](MMA_OBA_VAPS_Timeline.ipynb)**
-* **[[Launch Interactive Environment via Binder]([[https://mybinder.org/v2/gh/kirk-allen-ryan/Pediatric-Pain-Analgesia-Analysis/HEAD_]** *(To run live code)*
+
+  
+* **[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kirk-allen-ryan/Pediatric-Pain-Analgesia-Analysis/HEAD)** *(To run live code)*
 
 
 
