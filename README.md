@@ -49,6 +49,22 @@ A custom, clinically-informed approach was used to handle the significant missin
 * **MMA Imputation:** MMA values were imputed over a **defined 6-hour drug run-off model** (dose/i for subsequent hours) to reflect expected pharmacokinetics.
 * **VAPS Score Imputation:** Missing Verbal Analogue Pain Scores (VAPS) were imputed using a **custom decay-schedule-based Python function** that factors in both the **last reported score** and the **cumulative average**, ensuring clinically plausible estimations. *The Python function is detailed in the accompanying notebook.*
 
+### 4. Outcome Variable Definition (Complications and LOS)
+
+This phase of the study focused on clinical outcomes using the previously cleaned and standardized cohort.
+
+* **Length of Stay (LOS):** Calculated rigorously by subtracting the **Patient-Out-of-Room (POR) timestamp** from the **Discharge Timestamp**. This defined the final max POH value used in survival and regression models.
+* **Complication Classification:** The following clinical events were categorized as complications for analysis; incidence determined (by POH) as either symptoms charted as Clinical Events, or by contravening medication given with explicit orders
+
+    * **Muscle Spasm**
+    * **NV:** **(Post-Operative Nausea and Vomiting)**
+    * **POAE:** **(Possible Opioid Adverse Event** Respiratory depressive episode, clinically significant desaturation, >= moderate sedation, or rescue naloxone given with explicit orders)
+    * **Pruritis:** **(Itching)** 
+    * **Constipation** 
+
+   <img width="1480" height="1019" alt="image" src="https://github.com/user-attachments/assets/7d76bee9-84fd-49a8-9234-a5f699556191" />
+
+
 ---
 
 ## 📊 Results and Reproducibility
