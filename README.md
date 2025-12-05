@@ -52,7 +52,8 @@ A custom, clinically-informed approach was used to handle the significant missin
 * **MMA Imputation:** MMA values were imputed over a **defined 6-hour drug run-off model** (dose/i for subsequent hours) to reflect expected pharmacokinetics.
 * **VAPS Score Imputation:** Missing Verbal Analogue Pain Scores (VAPS) were imputed using a **custom decay-schedule-based Python function** that factors in both the **last reported score** and the **cumulative average**, ensuring clinically plausible estimations.
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/72bd451f-c4be-4950-988a-75e53b8cfee8" />
+<img width="1363" height="600" alt="image" src="https://github.com/user-attachments/assets/69204220-81f4-4bd6-875b-9f3bb7894edb" />
+
 
 
 ### 4. Outcome Variable Definition (Complications and LOS)
