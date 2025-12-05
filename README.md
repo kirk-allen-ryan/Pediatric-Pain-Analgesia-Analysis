@@ -35,7 +35,6 @@ Patients were segmented into four distinct analgesia cohorts for comparison, wit
 All analysis was based on the **Post-Operative Hourly (POH)** timeline, with $\text{POH}=0$ defined uniformly as the **Patient-Out-Of-Surgery-Suite timestamp**. Data was aggregated into Post-Operative Day (POD) bins for clinical review (e.g., POD-0 = POH 0-15; subsequent days are 24 hours).
 
 ### 2. Data Standardization and Feature Creation
-### 2. Data Standardization and Feature Creation
 
 All raw data was extracted from a **Cerner/Oracle database** using **SAP Business Objects** SQL queries.
 
@@ -51,7 +50,10 @@ A custom, clinically-informed approach was used to handle the significant missin
 
 * **Opioid Feature:** The primary feature for analysis was **Cumulative OME/kg**.
 * **MMA Imputation:** MMA values were imputed over a **defined 6-hour drug run-off model** (dose/i for subsequent hours) to reflect expected pharmacokinetics.
-* **VAPS Score Imputation:** Missing Verbal Analogue Pain Scores (VAPS) were imputed using a **custom decay-schedule-based Python function** that factors in both the **last reported score** and the **cumulative average**, ensuring clinically plausible estimations. *The Python function is detailed in the accompanying notebook.*
+* **VAPS Score Imputation:** Missing Verbal Analogue Pain Scores (VAPS) were imputed using a **custom decay-schedule-based Python function** that factors in both the **last reported score** and the **cumulative average**, ensuring clinically plausible estimations.
+
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/72bd451f-c4be-4950-988a-75e53b8cfee8" />
+
 
 ### 4. Outcome Variable Definition (Complications and LOS)
 
@@ -79,7 +81,7 @@ This analysis contributed to findings published in the following peer-reviewed j
 * [Primary Publication Link (PubMed/Semantic Scholar)](YOUR_PUBLICATION_URL_HERE)
 
 ### Reproducibility
-Example analytical pipeline is available in the accompanying notebooks.
+Examples from our analytical pipeline are available in the accompanying notebooks.
 
 
 
