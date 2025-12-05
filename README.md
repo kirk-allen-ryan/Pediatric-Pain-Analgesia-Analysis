@@ -35,10 +35,14 @@ Patients were segmented into four distinct analgesia cohorts for comparison, wit
 All analysis was based on the **Post-Operative Hourly (POH)** timeline, with $\text{POH}=0$ defined uniformly as the **Patient-Out-Of-Surgery-Suite timestamp**. Data was aggregated into Post-Operative Day (POD) bins for clinical review (e.g., POD-0 = POH 0-15; subsequent days are 24 hours).
 
 ### 2. Data Standardization and Feature Creation
+### 2. Data Standardization and Feature Creation
 
 All raw data was extracted from a **Cerner/Oracle database** using **SAP Business Objects** SQL queries.
 
-* **Opioid Standardization (Oral Morphine Equivalents - OME):** All opioid administrations (PCA, Epidural, Oral) were converted to a single metric: **Oral Morphine Equivalents (OMEs)**, using the UCSF Pain Management rubric's IV scale for epidural opioids due to the opioid-naive cohort.
+* **Extraction Query Example:** To demonstrate proficiency in EMR data acquisition, a sample of the complex SQL used to extract clinical event data (e.g., Peripheral IV details) for the defined cohort is available here: **[View Sample SQL Extraction Query](SQL-Sample_Query)**.
+
+* ****Opioid Standardization (Oral Morphine Equivalents - OME):**** All opioid administrations (PCA, Epidural, Oral) were converted to a single metric: ****Oral Morphine Equivalents (OMEs)****, using the UCSF Pain Management rubric's IV scale for epidural opioids due to the opioid-naive cohort.
+
 * **Multi-Modal Analgesia (MMA) Scaling:** Non-opioid analgesia doses (Acetaminophen, Ibuprofen) were standardized as a **%-Theo-Hourly-Max** to normalize dosage relative to published clinical safety and maximum limits.
 
 ### 3. Missing Data Imputation and Data Quality
