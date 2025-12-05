@@ -61,7 +61,7 @@ A custom, clinically-informed approach was used to handle the significant missin
 This phase of the study focused on clinical outcomes using the previously cleaned and standardized cohort.
 
 * **Length of Stay (LOS):** Calculated rigorously by subtracting the **Patient-Out-of-Room (POR) timestamp** from the **Discharge Timestamp**. This defined the final max POH value used in survival and regression models.
-* **Complication Classification:** The following clinical events were categorized as complications for analysis; incidence determined (by POH) as either symptoms charted as Clinical Events, or by contravening medication given with explicit orders
+* **Complication Classification:** The following clinical events were categorized as complications for analysis; incidence determined (by POH) as either symptoms charted as Clinical Events, HIM diagnosis codes, or by contravening medication given with explicit orders. The heatmap summarizes statistical differences vs Morphine-PCA, faceted by Post-Operative-Day (POD).
 
     * **Muscle Spasm**
     * **NV:** **(Post-Operative Nausea and Vomiting)**
@@ -70,11 +70,30 @@ This phase of the study focused on clinical outcomes using the previously cleane
     * **Constipation** 
 
    <img width="1480" height="1019" alt="image" src="https://github.com/user-attachments/assets/7d76bee9-84fd-49a8-9234-a5f699556191" />
+   
+
+ **Showing relative incidence of muscule spasm vs post-operative-hour (POH), faceted by treatment type**
+ 
+ <img width="1184" height="784" alt="image" src="https://github.com/user-attachments/assets/b6ef9e70-89f3-4d80-beaf-87065dc77822" />
+
 
 
 ---
 
 ## 📊 Results and Reproducibility
+
+### Key Finding 1: Opioid Sparing Effect by Analgesia Cohort
+The statistical difference between the two PCA modalities was of questionable significance. These were combined into a 'PCA Group' to simplify the model. The analysis validated a significant difference in post-operative opioid requirements across the three primary modalities. The cumulative OME/kg plot below demonstrates the superior opioid-sparing effect of both neuraxial modalities, particularly within the critical first 48 Post-Operative Hours (POH).
+
+<img width="1384" height="584" alt="image" src="https://github.com/user-attachments/assets/5b30861b-f37c-4390-a815-9e1d602403db" />
+
+### Key Finding 2: Gradual Decrease in Opioid Utilization Over Time
+Year over year reliance on opioids decreased, most notably in the PCA group, while utilization of MMA and non-pharmacological interventions (NPI) served to improve aggregate pain scores over the same timeframe
+
+<img width="1575" height="588" alt="image" src="https://github.com/user-attachments/assets/275e3f5b-2bec-48bc-878b-8afd0447be3a" />
+
+
+
 
 ### Publication Credit
 This analysis contributed to findings published in the following peer-reviewed journal:
