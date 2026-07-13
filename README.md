@@ -72,7 +72,7 @@ This phase of the study focused on clinical outcomes using the previously cleane
    <img width="1480" height="1019" alt="image" src="https://github.com/user-attachments/assets/7d76bee9-84fd-49a8-9234-a5f699556191" />
    
 
- **Showing relative incidence of muscule spasm vs post-operative-hour (POH), faceted by treatment type**
+ **Showing relative incidence of muscle spasm vs post-operative-hour (POH), faceted by treatment type**
  
  <img width="1184" height="784" alt="image" src="https://github.com/user-attachments/assets/b6ef9e70-89f3-4d80-beaf-87065dc77822" />
 
