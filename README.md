@@ -100,6 +100,9 @@ This analysis contributed to findings published in the following peer-reviewed j
 
 * [**A Comparison of Continuous Epidural, Spinal Opioid,and Patient-Controlled Analgesia for Posterior Spinal Fusion for Adolescent Idiopathic Scoliosis: A Multicenter, International Database Study**](https://pubmed.ncbi.nlm.nih.gov/41884952/)
 
+<img width="728" height="960" alt="Image 7-12-26 at 10 30 PM" src="https://github.com/user-attachments/assets/be0d92cc-f599-4f65-8cb6-843c99962ac7" />
+
+
 ### Reproducibility
 Examples from our analytical pipeline are available in the accompanying notebooks.
 
