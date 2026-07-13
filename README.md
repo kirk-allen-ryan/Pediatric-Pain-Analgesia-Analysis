@@ -98,7 +98,7 @@ Year over year reliance on opioids decreased, most notably in the PCA group, whi
 ### Publication Credit
 This analysis contributed to findings published in the following peer-reviewed journal:
 
-* [Primary Publication Link (PubMed/Semantic Scholar)](YOUR_PUBLICATION_URL_HERE)
+* [**A Comparison of Continuous Epidural, Spinal Opioid,and Patient-Controlled Analgesia for Posterior Spinal Fusion for Adolescent Idiopathic Scoliosis: A Multicenter, International Database Study**](https://pubmed.ncbi.nlm.nih.gov/41884952/)
 
 ### Reproducibility
 Examples from our analytical pipeline are available in the accompanying notebooks.
