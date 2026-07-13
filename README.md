@@ -9,7 +9,7 @@ This repository contains the data engineering pipeline and reproducible analysis
 
 As the primary Data Engineer and Analyst, this project showcases expertise in rigorous EMR data acquisition, multi-step standardization, clinically-informed imputation, and statistical preparation for published research.
 
-<img width="688" height="516" alt="image" src="https://github.com/user-attachments/assets/1816565a-6e94-4647-b9fe-c4a63c927505" />
+<img width="688" height="516" alt="Pain Delta by Type, 1-Hour Offset Chart" src="https://github.com/user-attachments/assets/1816565a-6e94-4647-b9fe-c4a63c927505" />
 
 
 
