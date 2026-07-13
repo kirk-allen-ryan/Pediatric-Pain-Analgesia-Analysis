@@ -42,7 +42,7 @@ All raw data was extracted from a **Cerner/Oracle database** using **SAP Busines
 
 * ****Opioid Standardization (Oral Morphine Equivalents - OME):**** All opioid administrations (PCA, Epidural, Oral) were converted to a single metric: ****Oral Morphine Equivalents (OMEs)****, using the UCSF Pain Management rubric's IV scale for epidural opioids due to the opioid-naive cohort.
 
-* **Multi-Modal Analgesia (MMA) Scaling:** Non-opioid analgesia doses (Acetaminophen, Ibuprofen) were standardized as a **%-Theo-Hourly-Max** to normalize dosage relative to published clinical safety and maximum limits.
+* **Multi-Modal Analgesia (MMA) Scaling:** Non-opioid analgesia doses (Acetaminophen, Ibuprofen) were standardized as a **%-Theoretical-Hourly-Max** to normalize dosage relative to published clinical safety and maximum limits.
 
 ### 3. Missing Data Imputation and Data Quality
 
@@ -110,7 +110,7 @@ Examples from our analytical pipeline are available in the accompanying notebook
 
 * **[View Analysis Notebook (MMA_OBA_VAPS_Timeline.ipynb)](MMA_OBA_VAPS_Timeline.ipynb)**
 
-* **[View Analysis Notebook (IM_complications_timeline_conda1.ipynd)](IM_complications_timeline_conda1.ipynb)**
+* **[View Analysis Notebook (IM_complications_timeline_conda1.ipynb)](IM_complications_timeline_conda1.ipynb)**
 
   
 * **[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kirk-allen-ryan/Pediatric-Pain-Analgesia-Analysis/HEAD)** *(To run live code)*
